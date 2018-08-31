@@ -120,4 +120,5 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 export PATH="./node_modules/.bin:$PATH"
-export PATH="~/go/bin/:$PATH"
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:~/go/bin
